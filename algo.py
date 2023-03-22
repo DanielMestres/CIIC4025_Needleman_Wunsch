@@ -67,3 +67,5 @@ if(len(sys.argv) > 1):
                   seq2 = row['sequence2']
                   res1, res2 = NW_algo(seq1, seq2)
                   print(res1, res2)
+else:
+    print("Please provide a CSV input file")
